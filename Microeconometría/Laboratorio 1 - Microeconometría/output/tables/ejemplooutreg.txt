@@ -1,0 +1,19 @@
+Comparación de modelos				
+		(1)	(2)	(3)
+		univ	biv	multiv
+VARIABLES	LABELS	Ingreso Laboral Estandarizado	Ingreso Laboral Estandarizado	Ingreso Laboral Estandarizado
+				
+edad	Edad en años	0.006***	0.076***	0.066***
+		(0.000)	(0.002)	(0.002)
+edad_sq	Edad al cuadrado		-0.001***	-0.001***
+			(0.000)	(0.000)
+s_IR	Índice de Riqueza Estandarizado			0.394***
+				(0.004)
+Constant	Constant	-0.237***	-1.506***	-1.310***
+		(0.013)	(0.034)	(0.033)
+				
+Observations		48,151	48,151	48,151
+R-squared		0.006	0.026	0.181
+Robust standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				
+Tabla elaborada en el Laboratorio 1 de E2EMI1 2024 II				
