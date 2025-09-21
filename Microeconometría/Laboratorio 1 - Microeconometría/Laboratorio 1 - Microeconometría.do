@@ -9,10 +9,10 @@ ssc install outreg2
 *-------------------------------------------------
 
 display "`c(username)'"
-	if "`c(username)'"== "josec" { 	// Martin Anthony
+	if "`c(username)'"== "josec" {
 			global lab1	"C:/Users/josec/Desktop/Trabajos 2025-I/Microeconometría/Laboratorios/Laboratorio 1 - Microeconometría"
 	}
-	if "`c(username)'"== "user2" {	// Usuario 2
+	if "`c(username)'"== "user2" {
 			global lab1   "..."
 	}		
 
@@ -256,5 +256,6 @@ outreg2 [univ biv multiv] using "${tables}/ejemplooutreg.xls", excel replace ///
 	dec(3) 	/// 	usar tres decimales 
 	title(Comparación de modelos) /// título
 	addnote(Tabla elaborada en el Laboratorio 1 de E2EMI1 2024 II) // nota al pie
+
 
 	
