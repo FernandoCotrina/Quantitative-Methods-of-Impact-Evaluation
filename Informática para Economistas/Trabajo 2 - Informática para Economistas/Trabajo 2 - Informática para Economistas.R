@@ -1,6 +1,5 @@
 # ###########################################################
   # Trabajo 2 - Informática para Economistas
-# Estudiante: Fernando Cotrina Lejabo
 # ###########################################################
   
 data <- "G:/Trabajo 2/Data/enaho01a-2020-500.dta"
@@ -59,4 +58,5 @@ e_data_promedio_ubigeo <- enaho_data_filtrada[, .(
   salario_promedio = mean(salario_mensual, na.rm = TRUE),
   edad_promedio = mean(p208a, na.rm = TRUE)
 ), by = ubigeo]
+
 
